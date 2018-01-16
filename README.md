@@ -1,20 +1,21 @@
-##README
+#README
 
-#Dependencies:
+##Dependencies:
 * requests.py: http://docs.python-requests.org/en/master/
 * Python Standard Library (wallscraper.py is compatible with Python >= 3.4.3, other versions untested)
 * working internet connection
 
 
-#Installation:
-Install requests (easy if you have PyPI, just type the command "pip requests" in the command line)
-Make sure that wallscraper.py and wallscraperutils.py are both in the current working directory
+##Installation:
+* Install requests (easy if you have PyPI, just type the command "pip requests" in the command line)
+* Make sure that wallscraper.py and wallscraperutils.py are both in the current working directory
 
 
-#Execution:
+##Execution:
 Simple! Just run the main script, wallscraper.py, from the command line: python3 wallscraper.py
 
-#Technical details (you don't need to read this, but it's here if you're curious):
+
+##Technical details (you don't need to read this, but it's here if you're curious):
 
 * wallscraper.py: harnessing the power of requests, this script connects to reddit and scrapes images from a given subreddit.
     * Asks user for subreddit to scrape from
@@ -60,5 +61,5 @@ Simple! Just run the main script, wallscraper.py, from the command line: python3
 
 For other technical questions, I direct you to the source code itself. It's all well-commented and easy to read
 
-#Acknowledgements:
+##Acknowledgements:
 Thanks to the CS41 course staff for the idea for wallscraper, and for telling me how Reddit organizes its data.
