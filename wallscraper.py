@@ -1,11 +1,9 @@
 #!/usr/bin/env python3 -tt
 """
 File: wallscraper.py
---------------------
-Course: CS 41
-Name: Kiko Ilagan
-SUNet: ilaganf
+Author: Kiko Ilagan
 
+----------------
 This program allows a user to connect to reddit.com and download images from the "hot" page
 of the user's chosen subreddit.
 """
@@ -265,5 +263,5 @@ def main():
             break
 
 if __name__ == '__main__':
-    print("\nCS 41 final project: Wallscraper by Kiko Ilagan (credit to CS 41 staff for the idea and structure\n")
+    print("\nWallscraper (credit to CS 41 staff for the idea\n")
     main()
